@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">our-story</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bootScreen" class="boot-screen">
+    <div class="boot-terminal">
+      <div class="terminal-dots"><span></span><span></span><span></span></div>
+      <pre id="bootText"></pre>
+      <button id="enterRepoBtn" class="primary-btn hidden">Abrir repositorio</button>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand-mark">♥</div>
+    <div class="repo-path"><span id="headerOwner">mariangel</span> / <strong>our-story</strong></div>
+    <button id="musicBtn" class="ghost-btn">♫ Música</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Repositorio privado · aniversario</div>
+        <h1>our-story <span class="heart">♥</span></h1>
+        <p id="heroText">El proyecto más importante que hemos construido juntos.</p>
+        <div class="badges">
+          <span>⭐ <strong id="yearsBadge">5</strong> años</span>
+          <span>💚 Estado: estable</span>
+          <span>🚀 Versión <strong id="versionBadge">5.0</strong></span>
+        </div>
+      </div>
+
+      <div class="counter-card">
+        <span>Tiempo juntos</span>
+        <strong id="dayCounter">0 días</strong>
+        <small id="dateLabel">Desde nuestra fecha especial</small>
+      </div>
+    </section>
+
+    <section class="repo-card">
+      <div class="repo-toolbar">
+        <button class="branch-btn">⑂ main</button>
+        <span id="lastCommit">Último commit: aniversario</span>
+      </div>
+
+      <div id="fileList"></div>
+    </section>
+
+    <section class="readme-card">
+      <div class="card-title">README.md</div>
+      <div class="readme-content">
+        <h2>Hola, <span id="partnerNameInline">amor</span> <span class="heart">♥</span></h2>
+        <p id="readmeIntro"></p>
+        <p id="readmeBody"></p>
+        <blockquote id="readmeQuote"></blockquote>
+      </div>
+    </section>
+
+    <section class="gallery-card">
+      <div class="card-title">gallery/</div>
+      <div id="gallery" class="gallery"></div>
+      <p id="galleryEmpty" class="empty-note hidden">Agrega tus fotos en la carpeta <code>assets</code> y escribe sus nombres en <code>config.js</code>.</p>
+    </section>
+
+    <section class="timeline-card">
+      <div class="card-title">git log</div>
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <footer>Maintained with love · <span id="footerVersion">v5.0</span></footer>
+  </main>
+
+  <div id="fileModal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong id="modalTitle">Archivo</strong>
+        <button id="closeModalBtn" class="ghost-btn">Cerrar ✕</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="heartsLayer" class="hearts-layer"></div>
+
+  <audio id="bgMusic" loop></audio>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
