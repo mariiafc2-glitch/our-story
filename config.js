@@ -123,7 +123,7 @@ const CONFIG = {
   y deja "assets/musica.mp3".
   Si no deseas música, escribe musicFile: ""
   */
-  musicFile: "assets/0509.mp3",
+  musicFile: "0509.mp3",
 
   finalMessage: {
     title: "Merge completed successfully ❤️",
