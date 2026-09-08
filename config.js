@@ -51,7 +51,7 @@ const CONFIG = {
     "Conoces Asia, ir al teatro realista!",
     "Tomarnos más fotografías",
     "Cumplir nuevas metas juntos",
-    "Celebrar muchos aniversarios más"
+    "Celebrar muchos aniversarios más",
     "Una vida juntos"
   ],
 
