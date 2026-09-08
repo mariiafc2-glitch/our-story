@@ -250,7 +250,7 @@ function renderGallery() {
   empty.classList.add("hidden");
   gallery.innerHTML = CONFIG.photos.map(photo => `
     <article class="gallery-item">
-      <img src="assets/${photo.file}" alt="${photo.caption}">
+      <img src="${photo.file}" alt="${photo.caption}">
       <div class="gallery-caption">${photo.caption}</div>
     </article>
   `).join("");
