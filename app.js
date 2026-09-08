@@ -190,6 +190,7 @@ function openFile(name) {
       <button id="mergeBtn" class="primary-btn hidden">git merge forever ❤️</button>
       <div id="finalCard" class="final-card hidden">
         <h2>${CONFIG.finalMessage.title}</h2>
+        <img src="foto_final.png" alt="Nuestra foto final" class="final-photo">
         <p>${CONFIG.finalMessage.line1}</p>
         <p><strong>${CONFIG.finalMessage.line2}</strong></p>
         <p>${CONFIG.finalMessage.line3}</p>
