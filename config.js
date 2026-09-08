@@ -29,7 +29,7 @@ const CONFIG = {
     primerRecuerdo: "Nuestras llamadas que duraban toda la madrugada y cuando subíamos a nuestros techos a ver la luna",
     momentoDivertido: "Cuando casi nos deja el bus de turismo en el Colca😂",
     comidaFavorita: "Una buena pizza con su vinito, un rico chifa y su gaseosa helada",
-    viajeFavorito: "Arequipa!! Demostró de qué estamos hechos",
+    viajeFavorito: "Piura, lo hiciste único mi amor",
     fraseEspecial: "To the moon"
   },
 
@@ -40,7 +40,8 @@ const CONFIG = {
     "Arequipa",
     "Matucana",
     "Huancayo",
-    "Chile"
+    "Chile",
+    "Piura"
   ],
 
   futurePlans: [
@@ -51,9 +52,12 @@ const CONFIG = {
     "Tomarnos más fotografías",
     "Cumplir nuevas metas juntos",
     "Celebrar muchos aniversarios más"
+    "Una vida juntos"
   ],
 
   reasons: [
+    "Porque tienes un corazón mágico.",
+    "Porque amo verte sonreír.",
     "Porque admiro tu inteligencia.",
     "Porque me haces sentir acompañada.",
     "Porque disfruto viajar contigo.",
@@ -127,7 +131,7 @@ const CONFIG = {
 
   finalMessage: {
     title: "Merge completed successfully ❤️",
-    line1: "Después de cinco años, sigo descubriendo nuevas razones para enamorarme de ti.<br><br>Cada día admiro más al hombre en el que te estás convirtiendo. Admiro tu corazón, tu capacidad, tu manera de salir adelante y, sobre todo, la forma en que me amas. A veces me parece irreal sentirme tan querida por alguien, hasta que te miro y recuerdo que sí, que eres real y que tengo la enorme suerte de tenerte en mi vida.<br><br>Este 5 de septiembre quedará guardado para siempre entre mis recuerdos favoritos. No solo porque cumplimos cinco años, sino por ese anillo de promesa que me regalaste, por las palabras que dijiste, y por todos los detalles que tuviste en este viaje conmigo, absolutamente todos los he notado. Y aunque quizá alguno te parezca algo pequeño, me hicieron inmensamente feliz. Fueron detalles que nacieron de ti y consiguieron dejarme sin palabras y más enamorada de ti que nunca.",
+    line1: "Después de cinco años, sigo descubriendo nuevas razones para enamorarme de ti.<br><br>Cada día admiro más al hombre en el que te estás convirtiendo. Admiro tu corazón, tu capacidad, tu manera de salir adelante y, sobre todo, la forma en que me amas. A veces me parece irreal todo el amor que me demuestras, hasta que te miro y recuerdo que sí, que eres real y que tengo la enorme suerte de tenerte en mi vida.<br><br>Este 5 de septiembre quedará guardado para siempre entre mis recuerdos favoritos. No solo porque cumplimos cinco años, sino por ese anillo de promesa que me regalaste, por las palabras que dijiste, y por todos los detalles que tuviste en este viaje conmigo, absolutamente todos los he notado. Y aunque quizá alguno te parezca algo pequeño, me hicieron inmensamente feliz. Fueron detalles que nacieron de ti y consiguieron dejarme sin palabras y más enamorada de ti que nunca.",
     line2: "Quiero verte cumplir tus metas y quiero cumplir las mías. Quiero que sigamos creciendo individualmente para que, cuando llegue nuestro momento, podamos dar esos pasos que todavía nos esperan juntos.<br><br>No necesito una vida perfecta. Sueño con una vida tranquila contigo, rodeados de los nuestros, construyendo poquito a poquito aquello que alguna vez imaginamos.",
     line3: "Gracias por hacerme sentir tan amada. Gracias por estos cinco años, por cada versión de nosotros y por hacerme tan feliz.<br><br>Te admiro muchísimo, y estoy inmensamente enamorada de ti.<br><br>Si estos primeros cinco años fueron solo el comienzo... quiero descubrir contigo todas las versiones que todavía nos faltan. ❤️",
     question: "Status: forever running... ∞"
